@@ -84,6 +84,7 @@ li>.contact-link {
     text-align: center;
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
+    cursor: pointer;
 }
 
 /* features and what we do*/
@@ -147,6 +148,7 @@ h3 {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    cursor: pointer;
 }
 
 .filter-button:hover,
