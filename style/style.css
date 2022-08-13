@@ -1,0 +1,119 @@
+/* Основной цвет фона #E5E5E5; */
+/* Вторичный цвет фона #F5F4FA; */
+/* Акцент #2196F3; */
+/* Основной цвет текста #757575;*/
+/* Вторичный цвет текста #212121; */
+/* Белый цвет #FFFFFF; */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #E5E5E5;
+    --secondary-bg-color: #F5F4FA;
+    --third-bg-color: #2F303A;
+}
+
+.page {
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+.logo {
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+
+.page-header{
+    font-weight: 500;
+}
+
+.nav-link {
+    color:var(--title-text-color);
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+.contacts a {
+    color: var(--primary-text-color);
+}
+
+/* hero */
+.hero {
+    background-color: var(--third-bg-color);
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    align-items: center;
+    text-align: center;
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+/* features */
+h2,
+h3 {
+    color: var(--title-text-color);
+}
+
+.features-title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.features-item {
+    line-height: 1.71;
+}
+
+/* what we do */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.members-list>.secondary-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
